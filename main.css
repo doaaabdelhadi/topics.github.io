@@ -1,0 +1,18 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.header h2.title{
+    text-align: center;
+    color:blue;
+}
+
+footer{
+    background-color: gray;
+}
+footer .copy_right span{
+    color: blue;
+    font-size: 15px;
+    
+}

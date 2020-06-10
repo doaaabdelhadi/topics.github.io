@@ -1,0 +1,354 @@
+<html>
+    <head>
+            <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css ">
+    <link rel="stylesheet" href=" https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css ">
+    <link rel="stylesheet" href="main.css">
+
+    </head>
+    <body>
+      <div class="container">
+        <div class='row'>
+ 
+                    
+     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+       <div class="container">
+ 
+       <a class="navbar-brand" href="#">
+         <span> ReviewS</span>
+       </a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+ 
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav ml-auto">
+           <li class="nav-item active">
+             <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+           </li>
+           <!-- <li class="nav-item">
+             <a class="nav-link" href="#">About US</a>
+           </li> -->
+            <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Topcies
+             </a>
+             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+               <a class="dropdown-item" href="bigramtopics.html">bigram</a>
+               <a class="dropdown-item" href="doctopics.html">Words</a>
+             </div>
+           </li>
+ 
+           <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               KeyWords
+             </a>
+             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+               <a class="dropdown-item" href="kwbg.html">bigram</a>
+               <a class="dropdown-item" href="kwdoc.html">Words</a>
+             </div>
+           </li>
+ 
+         </ul>
+ 
+       </div>
+     </div>
+ </nav>
+ </div>
+ </div>
+      
+        <div class="header">
+            <div class="container">
+                <div class="row mt-5">
+                  <div class='col-12 col-sm-10'>
+                    <h2 class="title">
+                      <i class="fa fa-info-circle" aria-hidden="true"></i>
+                      Key words Topics (without bigram)
+          
+                  </h2>
+                  <!-- <h5>
+                    
+                      A bigram  is a sequence of two adjacent elements from a string of tokens.
+                      Such as customer service  (two words always get together)                      
+                  </h5> -->
+
+
+                  </div>
+                   
+                    <!-- <div classs='row'>
+                      
+                    <div class="alert alert-info" role="alert">
+                      <h4>Accuracy of Model: 49%.</h4>
+                    </div>
+                  </div> -->
+                   
+    
+                </div>
+                <div class="row mt-5 mb-5">
+                    <div class="col-12 col-sm-12">
+                        <table id="example" class="table table-striped table-bordered dataframe" style="width:100%">
+                            <!-- <table border="1" class="dataframe"> -->
+  <thead>
+    <tr style="text-align: right;">
+      <th>Topic # 01</th>
+      <th>Topic # 02</th>
+      <th>Topic # 03</th>
+      <th>Topic # 04</th>
+      <th>Topic # 05</th>
+      <th>Topic # 06</th>
+      <th>Topic # 07</th>
+      <th>Topic # 08</th>
+      <th>Topic # 09</th>
+      <th>Topic # 10</th>
+      <th>Topic # 11</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ممتاز</td>
+      <td>ممتازة</td>
+      <td>ممتااز</td>
+      <td>رائع</td>
+      <td>ومفيد</td>
+      <td>موقع</td>
+      <td>يعمل</td>
+      <td>احسن</td>
+      <td>جيد</td>
+      <td>حلو</td>
+      <td>ممتازه</td>
+    </tr>
+    <tr>
+      <td>جميل</td>
+      <td>محترم</td>
+      <td>اكتر</td>
+      <td>تطبيق</td>
+      <td>جده</td>
+      <td>جميله</td>
+      <td>اجمل</td>
+      <td>البرنامج</td>
+      <td>رائعة</td>
+      <td>فاشل</td>
+      <td>روعة</td>
+    </tr>
+    <tr>
+      <td>تطبيق</td>
+      <td>كابتن</td>
+      <td>ورائع</td>
+      <td>التجربه</td>
+      <td>ممتازين</td>
+      <td>كثير</td>
+      <td>يستاهل</td>
+      <td>تطبيق</td>
+      <td>جميلة</td>
+      <td>التطبيق</td>
+      <td>جيدة</td>
+    </tr>
+    <tr>
+      <td>طرف</td>
+      <td>كويس</td>
+      <td>شغال</td>
+      <td>شركه</td>
+      <td>الابلكيشن</td>
+      <td>يدعم</td>
+      <td>اروع</td>
+      <td>انصح</td>
+      <td>تجربة</td>
+      <td>التوصيل</td>
+      <td>خدمة</td>
+    </tr>
+    <tr>
+      <td>برنامج</td>
+      <td>التجربة</td>
+      <td>راقي</td>
+      <td>محترمه</td>
+      <td>رووعة</td>
+      <td>سريع</td>
+      <td>جداا</td>
+      <td>التطبيق</td>
+      <td>غالي</td>
+      <td>الشحن</td>
+      <td>خدمه</td>
+    </tr>
+    <tr>
+      <td>مطعم</td>
+      <td>احب</td>
+      <td>جمييل</td>
+      <td>احلى</td>
+      <td>خدمات</td>
+      <td>كله</td>
+      <td>تحديث</td>
+      <td>مفيد</td>
+      <td>تحفه</td>
+      <td>الطلب</td>
+      <td>تجربه</td>
+    </tr>
+    <tr>
+      <td>افضل</td>
+      <td>قمة</td>
+      <td>نجوم</td>
+      <td>زباله</td>
+      <td>اسعاره</td>
+      <td>معلق</td>
+      <td>السائق</td>
+      <td>سيء</td>
+      <td>وجميل</td>
+      <td>تطبيق</td>
+      <td>رائعه</td>
+    </tr>
+    <tr>
+      <td>ملاك</td>
+      <td>الكابتن</td>
+      <td>الافضل</td>
+      <td>حبيت</td>
+      <td>كلام</td>
+      <td>وتوصيل</td>
+      <td>معفن</td>
+      <td>الاستخدام</td>
+      <td>تطبيق</td>
+      <td>مره</td>
+      <td>توصيل</td>
+    </tr>
+    <tr>
+      <td>نجلاء</td>
+      <td>ومريح</td>
+      <td>محمد</td>
+      <td>برنامج</td>
+      <td>مايفتح</td>
+      <td>بالرياض</td>
+      <td>التطبيق</td>
+      <td>حلوه</td>
+      <td>بجد</td>
+      <td>الاسعار</td>
+      <td>شركة</td>
+    </tr>
+    <tr>
+      <td>الحسيني</td>
+      <td>رحله</td>
+      <td>مايشتغل</td>
+      <td>واسعار</td>
+      <td>يخدم</td>
+      <td>النسيم</td>
+      <td>يحتاج</td>
+      <td>التحديث</td>
+      <td>مناطق</td>
+      <td>البرنامج</td>
+      <td>العملاء</td>
+    </tr>
+    <tr>
+      <td>محترمة</td>
+      <td>سائق</td>
+      <td>كلب</td>
+      <td>استطيع</td>
+      <td>ولله</td>
+      <td>ونعم</td>
+      <td>المشوار</td>
+      <td>وسهل</td>
+      <td>كويسه</td>
+      <td>شي</td>
+      <td>حي</td>
+    </tr>
+    <tr>
+      <td>التطبيق</td>
+      <td>والكابتن</td>
+      <td>تعامل</td>
+      <td>كباتن</td>
+      <td>عجبني</td>
+      <td>فاشله</td>
+      <td>صعب</td>
+      <td>مرة</td>
+      <td>مافيه</td>
+      <td>روعه</td>
+      <td>الخدمة</td>
+    </tr>
+    <tr>
+      <td>الممتاز</td>
+      <td>خدمة</td>
+      <td>الرائع</td>
+      <td>طول</td>
+      <td>للطلب</td>
+      <td>حرام</td>
+      <td>ومحترم</td>
+      <td>برنامج</td>
+      <td>احلي</td>
+      <td>ارجو</td>
+      <td>ممتازة</td>
+    </tr>
+    <tr>
+      <td>نجلا</td>
+      <td>سوق</td>
+      <td>مافي</td>
+      <td>وصول</td>
+      <td>معها</td>
+      <td>منطقتي</td>
+      <td>عالية</td>
+      <td>العروض</td>
+      <td>راءع</td>
+      <td>مبالغ</td>
+      <td>ماك</td>
+    </tr>
+    <tr>
+      <td>ماشاءالله</td>
+      <td>رحلة</td>
+      <td>مكه</td>
+      <td>وبسيط</td>
+      <td>جديده</td>
+      <td>الوكيل</td>
+      <td>اكل</td>
+      <td>يفتح</td>
+      <td>جربته</td>
+      <td>الدفع</td>
+      <td>تطبيق</td>
+    </tr>
+  </tbody>
+<!-- </table> -->
+
+                        </table>
+                            
+                        </div>
+
+                        </div>
+                        </div>
+
+
+
+                        </div>
+                        <footer>
+                        <div class="container">
+
+                        <div class="row">
+                        <div class="col-auto copy_right">
+                            <span>
+                                @Copy rights
+
+                            </span>
+                            
+
+                        </div>
+                        </div>
+                        </div>
+
+                        </footer>
+
+
+
+
+
+                        <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+                        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+                        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+                        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+                        <script src="main.js"></script>
+                        <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+                        <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
+                        <!-- https://code.jquery.com/jquery-3.5.1.js -->
+
+        </body>
+</html>
